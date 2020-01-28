@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html"
   },
   "config": {
     "commitizen": {
@@ -16,6 +16,13 @@
   "license": "ISC",
   "devDependencies": {
     "commitizen": "^4.0.3",
-    "cz-emoji": "^1.2.0"
+    "cz-emoji": "^1.2.0",
+    "parcel-bundler": "^1.12.4",
+    "stylelint": "^13.0.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.0"
   }
 }
