@@ -5,6 +5,7 @@ import GlobalStyles from "./components/GlobalStyle";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
+import Footer from "./components/Footer";
 
 function App() {
   return (<>
@@ -12,6 +13,7 @@ function App() {
     <NavBar />
     <Hero />
     <Info />
+    <Footer />
   </>);
 }
 
